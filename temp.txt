@@ -1,0 +1,18 @@
+renderText = {value =>  
+               <>
+                <p>
+                    SubTotal (0 items):<strong>{value}</strong>
+                </p>
+                <small>
+                    <input type="checkbox" />Gift
+                </small> 
+           </>
+              
+
+            }
+
+            decimalScale={2}
+            value={0}
+            Displaytype={"text"}
+            thousandSeparator={true}
+            prefix={"$"}
